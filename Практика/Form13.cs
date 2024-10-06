@@ -63,7 +63,8 @@ namespace Практика
         {
                 Form5 form5 = new Form5();
                 form5.Show();
-                this.Hide();
+                this.Hide(); //При скрытии формы (this.Hide()) пользователю не будет видно, 
+                что происходит с текущей формой. Стоит закрывать форму (this.Close()), если это уместно.
         }
 
         private void Form13_Load(object sender, EventArgs e)
