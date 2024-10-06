@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace Практика
 {
-    public partial class Form1 : Form
+    public partial class Form1 : Form //Названия форм неинформативны. Лучше использовать более описательные имена, чтобы было понятно, за что отвечает каждая форма.
     {
         public Form1()
         {

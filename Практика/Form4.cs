@@ -21,7 +21,8 @@ namespace Практика
         {
             if ((textBox1.Text.Equals("")))
                 MessageBox.Show("Вы не ввели все необходимые данные!!", "Внимание", MessageBoxButtons.OK, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button1);
-            if ((textBox1.Text.Equals("434")))
+            if ((textBox1.Text.Equals("434"))) //много повторяющихся строк кода при проверке значений textBox1. 
+            Это можно оптимизировать с помощью коллекции (например, массива или списка), чтобы избежать дублирования.
             {
                 Form9 form9 = new Form9();
                 form9.Show();
