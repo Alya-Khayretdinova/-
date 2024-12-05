@@ -42,7 +42,8 @@ namespace Практика
         }
         private void LoadData1()
         {
-            string connectionString = "Server=localhost;Database=agenstvo;User ID=Alechka;Password=Alfia.2006;";
+            string connectionString = "Server=localhost;Database=agenstvo;User ID=Alechka;Password=Alfia.2006;"; 
+            //Создание соединения с базой данных повторяется в нескольких методах.
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
 

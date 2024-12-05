@@ -70,7 +70,8 @@ namespace Практика
             this.Hide();
         }
 
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e) //Неиспользуемые методы:
+   - Методы label3_Click и label3_Click_1 не содержат никакой логики. Если они не нужны, лучше их удалить.
         {
 
         }
